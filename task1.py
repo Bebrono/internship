@@ -18,12 +18,13 @@ print(string_list)
 # тексте, введенном пользователем. Вывести статистику по количеству
 # уникальных слов и общее количество слов.
 
-user_input = input().split()
+user_input = input("Введите слова: ").split()
 total_words = len(user_input)
 unique_words = len(set(user_input))
 
 print("Общее количество слов: ", total_words)
 print("Количество уникальных слов: ", unique_words)
 
-#
+#cоздайте тип данных, который может хранить только числа больше нуля
 
+print(abs(-10))
