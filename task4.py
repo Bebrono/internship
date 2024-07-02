@@ -1,3 +1,4 @@
+#
 def Srznach(num):
     if not num:
         return 0
