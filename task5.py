@@ -42,7 +42,6 @@ class BankAccount:
     def get_balance(self):
         return self.__balance
 
-# Пример использования класса
 account = BankAccount(100)
 print(f"Баланс: {account.get_balance()}", "\n")
 
